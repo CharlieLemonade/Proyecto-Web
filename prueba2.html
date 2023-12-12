@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado Superpuesto</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Evitar que la imagen cree barras de desplazamiento */
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad del texto */
+            padding: 20px;
+            box-sizing: border-box;
+            color: #fff; /* Color del texto */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Encabezado Superpuesto</h1>
+        <p>Descripción del encabezado...</p>
+    </header>
+
+    <img src="images/background_image.jpg" alt="Descripción de la imagen">
+
+</body>
+</html>
