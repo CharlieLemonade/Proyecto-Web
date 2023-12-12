@@ -1,0 +1,147 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lexend');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+* 
+{
+
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; /* Aplicar 'Lexend' a toda la tipografía */
+}
+
+
+body
+{
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 0.4px solid #8E8E8E;    
+}
+
+.menu-item, .login {
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.menu-item {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.login {
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+    background-color: #D1FAE5;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 30px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    /*z-index: 100;*/
+}
+
+header ul li a, header ul li:last-child a {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+
+    color: #181818;
+    text-decoration: none;
+
+}
+
+header ul li:last-child a {
+    color: #047857;
+    transition: all 0.5s ease;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Utilizamos flexbox para alinear la imagen y el contenido */
+}
+ 
+  /* Estilos para la imagen en la tarjeta */
+.card img {
+    width: 200px; /* Ancho de la imagen, ajusta según tus necesidades */
+    height: auto; /* Altura automática para mantener la proporción original */
+    margin-right: 16px; /* Margen a la derecha para separar la imagen del contenido */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+  }
+
+  .precio
+  {
+    font-weight: 650;
+    color: #181818;
+    font-size: 17px;
+  }
+
+.punto
+{
+    position: absolute;
+}
+
+.game-title
+{
+    font-size: 22px;
+    color: #181818;
+}
+
+.game-place
+{
+    font-size: 15px;
+    color: #525252;
+    font-weight: 600;
+}
+
+
+
+
+
+
+ 
+
+  

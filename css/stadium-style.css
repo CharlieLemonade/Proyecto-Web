@@ -1,0 +1,117 @@
+/* Estilos generales para el container */
+.canvas-container
+{
+    
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #EEF0F6;
+    z-index: 0;
+    
+}
+
+.canvas-container.grabbing {
+    cursor: grabbing; /* Establece el cursor de "agarre" cuando está en modo "agarre" */
+}
+
+
+
+/* Estilos generales para las áreas exteriores */
+.Outside {
+    fill: #ffffff;
+    stroke: #746F6C;
+    stroke-width: 0.05;
+}
+
+.OutsideCourt {
+    fill: #041E3F;
+    stroke-width: 0.001;
+}
+
+/* Estilos para la cancha */
+.FirstSection, .NoSeats, .SecondSection, .ThirdSection {
+    fill: #E7E6E8;
+    stroke-width: 0.02;
+    stroke: #AEADAF;
+}
+
+.Court
+{
+    fill: #F2D0A7;
+    stroke-width: 0.001;
+
+}
+
+
+/* Cambio de color al pasar el mouse sobre la Tercera Sección */
+.FirstSection:hover {
+    fill: #B7C99A
+}
+
+/* Estilos para las líneas rojas y cuadrados rojos */
+.RedLines {
+    fill: none;
+    stroke: #C9072A;
+    stroke-width: 0.02;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 1;
+}
+
+.RedSquares {
+    fill: #C9072A;
+    stroke-width: 0.001;
+}
+
+/* Estilos para las líneas blancas */
+.WhiteLines {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 0.01;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 1;
+}
+
+/* Estilos para el texto */
+.Words {
+    fill: none;
+    stroke: #746F6C;
+    stroke-width: 0.02;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 1;
+}
+
+#zoom-controls
+{
+    z-index: 100;
+}
+
+/* Estilos para los botones */
+#zoom-in, #zoom-out
+{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+
+#zoom-in:active, #zoom-out:active {
+    background-color: #d5d1d1; 
+    
+}
+
